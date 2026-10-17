@@ -26,7 +26,8 @@ jobs:
           # 上游原项目的仓库地址（格式: 原作者用户名/原仓库名）
           target_repo_token: ${{ secrets.GITHUB_TOKEN }}
           upstream_sync_branch: main
-          upstream_sync_repo: <上游用户名>/<上游仓库名>
+          upstream_sync_repo: EKKOLearnAI/ekko-studio
+
 
       - name: Check sync status
         if: failure()
